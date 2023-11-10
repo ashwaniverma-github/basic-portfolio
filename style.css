@@ -1,0 +1,228 @@
+
+#header-bg{
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+}
+
+#section-bg{
+    position: relative;
+    background-image: url(images/bg-2.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.intro{
+    color: white;
+    padding-top: 160px;
+    padding-left: 80px;
+}
+.about-me{
+    color: white;
+    padding-top: 150px;
+}
+#name{
+    font-weight: 700;
+}
+#intro-h2{
+    font-weight: 400;
+}
+
+#profile-pic{
+    background-color: transparent;
+    width: 800;
+    height: 639px;
+    position: absolute;
+    left: 700px;
+    top: 110px;
+}
+
+@media (min-width: 160px) and (max-width: 1238px) {
+    #profile-pic{
+        display: none;
+    }
+    #head-about{
+        position:relative;
+        left: 120px;
+        top: 900px;
+    }
+  }
+
+p{
+    font-size: 1.25rem;
+}
+
+#head-about{
+    position: absolute;
+    right: 150px;
+
+}
+
+.about-para{
+    width: 1200px;
+}
+
+#para{
+    padding-left: 5rem;
+}
+
+#resume-btn{
+    position: absolute;
+    right: 210px;
+
+}
+#skill-sec{
+    height: 400px;
+    background-color: rgb(39, 41, 39);
+}
+
+#skills{
+    height: 200px;
+    background-color: #4f524f;
+    position: absolute;
+    border-radius: 50px;
+
+}
+
+
+@media screen and (max-width: 992px) {
+    #skill-img{
+      width: 96px;
+      height: 96px;
+    }
+  }
+
+
+#project-sec{
+    background-image: url(images/projects-bg2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#footer-sec{
+    background-image: url(images/footer-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+#contact-head{
+    padding-top: 5%;
+}
+@media screen and (max-width: 992px) {
+    #contact-head{
+        padding-top: 120%;
+    }
+  }
+.card{
+    transition-duration: 500ms;
+}
+
+.card:hover{
+    border-radius: 5% 5% 5% 5%;
+    transform: scale(0.9);
+    box-shadow: 5px 5px 20px 15px rgba(72, 0, 82, 0.998)    ;
+    -webkit-border-radius: 5% 5% 5% 5%;
+    -moz-border-radius: 5% 5% 5% 5%;
+    -ms-border-radius: 5% 5% 5% 5%;
+    -o-border-radius: 5% 5% 5% 5%;
+}
+
+#skill-img{
+    transition-duration: 500ms;
+}
+
+#skill-img:hover{
+    border-radius: 20%;
+    transform:scale(0.7) ;
+    box-shadow: 5px 5px 50px 15px rgb(188, 187, 187);
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+#profile-pic{
+    transition-duration: 1000ms;
+}
+#profile-pic:hover{
+    transform: scale(0.8);
+    border-radius: 25%;
+    box-shadow: 5px 5px 50px 15px rgb(241, 238, 238);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+
+#intro-h2{
+    transition-duration: 500ms;
+}
+
+#intro-h2:hover{
+    text-shadow: rgb(120, 6, 133) 400px 5px ;
+    transform: scale(1.1);
+
+}
+
+#name{
+    transition-duration: 500ms;
+
+}
+#name:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    text-shadow: rgb(120, 6, 133) 400px 5px ;
+}
+
+#head-about{
+    transition-duration: 500ms;
+}
+#head-about:hover{
+    transform: scale(1.1);
+    text-shadow: 5px 5px 5px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+#para{
+    transition-duration: 500ms;
+}
+#para:hover{
+    text-shadow: 5px 5px 5px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#project-head{
+    transition-duration: 500ms;
+}
+#project-head:hover{
+    transform: scale(1.1);
+    text-shadow: 5px 5px 5px red, 0 0 1em blue, 0 0 0.2em blue;
+
+}
+
+#skill-head{
+    transition-duration: 500ms;
+}
+#skill-head:hover{
+    transform: scale(1.1);
+    text-shadow: 5px 5px 5px red, 0 0 1em blue, 0 0 0.2em blue;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+#get-head{
+    transition-duration: 500ms;
+}
+#get-head:hover{
+    transform: scale(1.1);
+    text-shadow: 5px 5px 5px red, 0 0 1em blue, 0 0 0.2em blue;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
